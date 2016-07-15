@@ -3437,7 +3437,7 @@ apache::vhost { 'sample.example.net':
     { path     => '/',
       provider => 'location',
       limit    => [
-        { methods => 'GET HEAD'
+        { methods => 'GET HEAD',
           require => ['valid-user']
         },
       ],
