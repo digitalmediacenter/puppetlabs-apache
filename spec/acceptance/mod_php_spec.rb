@@ -147,5 +147,6 @@ unless (fact('operatingsystem') == 'SLES' && fact('operatingsystemrelease') == '
         end
       end
     end
+
   end
 end
